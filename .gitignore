@@ -1,0 +1,52 @@
+# Ignore Maven build output
+target/
+
+# Ignore Gradle build output
+build/
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.bak
+
+# Ignore environment files
+.env
+*.env
+
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Ignore Eclipse project files
+.project
+.classpath
+.settings/
+
+# Ignore VS Code project files
+.vscode/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore local database files
+*.h2.db
+*.mv.db
+*.sqlite
+*.db
+
+# Ignore test coverage reports
+coverage/
+*.exec
+jacoco-report/
+
+# Ignore application-specific temporary files
+spring.log
+
+# Ignore generated files (e.g., Javadoc, etc.)
+docs/
